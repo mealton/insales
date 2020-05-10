@@ -1,0 +1,43 @@
+@import "fonts";
+
+.blured{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 15;
+  background: rgba(0, 0, 0, .2);
+  backdrop-filter: blur(1px);
+}
+
+.container {
+  width: 1660px;
+  max-width: 95%;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.btn{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  line-height: 1;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: $yanone_regular;
+  text-transform: uppercase;
+}
+
+@import "header/header";
+@import "header-slider/header-slider";
+@import "menu/menu";
+@import "offers-menu/offers-menu";
+@import "offers/offers";
+
+@import "../slick-1.8.0/slick/slick-theme";
+@import "../slick-1.8.0/slick/slick";

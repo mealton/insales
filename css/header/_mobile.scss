@@ -1,0 +1,92 @@
+@media screen and (max-width: 1440px) { /*DESCTOP*/
+  .header-left, .header-right {
+    width: auto;
+  }
+  button.header-button {
+    padding: 0 10px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1199px) { /*LAPTOP*/
+
+  button.header-button {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 999px) { /*TABLET*/
+  .hamburger {
+    display: inline-block;
+  }
+  header {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background-color: #fff;
+    width: 155px;
+    height: 100%;
+    padding: 100px 30px 30px;
+    z-index: 20;
+    display: block;
+    overflow: auto;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    transition: left .5s ease-in-out;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+    &.visible{
+      left: 0;
+    }
+  }
+  .header-logo {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+  }
+  .header-right {
+    display: block;
+  }
+  .header-button {
+    display: block;
+    margin: 0 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 767px) { /*WIDEPHONES*/
+
+  header {
+    padding: 100px 20px 50px;
+  }
+
+  button.header-button:not(.current-page) {
+    height: auto;
+    font-size: 22px;
+    padding: 0;
+  }
+
+  .header-logo {
+    left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 599px) { /*MOBILE*/
+
+  header {
+    padding: 90px 15px 50px;
+  }
+  button.header-button:not(.current-page) {
+    font-size: 20px;
+  }
+
+  .header-logo {
+    left: 15px;
+    top: 30px;
+  }
+
+
+}

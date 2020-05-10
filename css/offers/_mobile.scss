@@ -1,0 +1,97 @@
+@media screen and (max-width: 1440px) { /*DESCTOP*/
+
+  .offer-image {
+    height: 30vw;
+    max-height: 530px;
+  }
+
+  .offer-info-table {
+    padding-top: 40px;
+  }
+
+  .offer-top-info {
+    margin: 0 0 30px 10px;
+    br {
+      display: none;
+    }
+  }
+
+  .offer-status {
+    margin-top: 10px;
+  }
+
+  .offer-info-table table td {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .offer-read-more {
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (max-width: 1199px) { /*LAPTOP*/
+
+  .offer-info-table {
+    padding-top: 30px;
+  }
+
+  .offer-info-table table td {
+    padding: 3px;
+    font-size: 14px;
+  }
+
+  .offer-status {
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 0 6px 2px;
+  }
+
+  .offer-read-more {
+    font-size: 14px;
+  }
+
+  .offer-description {
+    font-size: 14px;
+  }
+
+  .offer-sizes-value {
+    padding: 0 4px 2px;
+    font-size: 13px !important;
+  }
+
+  .offer-old-price {
+    font-size: 18px;
+  }
+
+  .offer-new-price {
+    font-size: 30px;
+  }
+
+  .offer-basket-button {
+    margin: 0 0 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 999px) { /*TABLET*/
+
+  .offer-image {
+    height: 37vw;
+    background-position: top !important;
+  }
+
+}
+
+@media screen and (max-width: 767px) { /*WIDEPHONES*/
+  .offer-image {
+    height: 57vw;
+  }
+}
+
+@media screen and (max-width: 599px) { /*MOBILE*/
+  .offer-image {
+    height: 100vw;
+  }
+}

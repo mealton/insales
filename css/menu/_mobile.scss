@@ -1,0 +1,30 @@
+@media screen and (max-width: 1199px) { /*LAPTOP*/
+
+  .menu-item {
+    padding: 10px 0;
+    height: 70px;
+    font-size: 17px;
+    img {
+      zoom: .7;
+    }
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) { /*TABLET*/
+
+}
+
+@media screen and (min-width: 599px) and (max-width: 767px) { /*WIDEPHONES*/
+
+}
+
+@media screen and (max-width: 599px) { /*MOBILE*/
+
+  .menu-item {
+    width: calc(100% / 3);
+    border-bottom: 1px solid #FFF;
+    font-size: 15px;
+  }
+
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "yanone-kaffeesatz-regular";
+    src: url("fonts/yanone-kaffeesatz-regular.ttf");
+    font-style: normal;
+    font-weight: 400; }
+@font-face {
+    font-family: "yanone-kaffeesatz-bold";
+    src: url("fonts/yanone-kaffeesatz-bold.ttf");
+    font-style: normal;
+    font-weight: bold; }
+@font-face {
+    font-family: "clearsans-light";
+    src: url("fonts/clearsans-light.ttf");
+    font-style: normal;
+    font-weight: 300; }
+@font-face {
+    font-family: "clearsans-bold";
+    src: url("fonts/clearsans-bold.ttf");
+    font-style: normal;
+    font-weight: 600; }
+
+$yanone_regular:"yanone-kaffeesatz-regular", sans-serif;
+$yanone_bold:"yanone-kaffeesatz-bold", sans-serif;
+$clearsans_light:"clearsans-light", sans-serif;
+$clearsans_bold:"clearsans-bold", sans-serif;

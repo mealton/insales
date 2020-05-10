@@ -1,0 +1,18 @@
+.header-slider{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header-slider-cover {
+  transition: opacity .3s ease-in-out;
+  height: 540px;
+  background: linear-gradient(to bottom, transparent, rgba(0,0,0,.8));
+  position: relative;
+  z-index: 5;
+}
+
+@import "header-slider-left";
+@import "header-slider-right";
+@import "mobile";
+

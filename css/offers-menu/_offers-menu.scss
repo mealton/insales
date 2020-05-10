@@ -1,0 +1,45 @@
+.offers-menu{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family:$yanone_regular;
+  font-size: 36px;
+  padding: 60px 0 20px;
+}
+
+.offers-menu-left{
+  width:calc(100% - 115px);
+  span{
+    margin-right: 50px;
+    cursor: pointer;
+    &:hover, &.active{
+      border-bottom:2px solid #ef7f1a;
+      color: #ef7f1a;
+    }
+  }
+}
+
+.offers-menu-right{
+  width: 115px;
+}
+
+.offers-control{
+  &.left img{
+    transform: rotate(180deg);
+    margin-right: 35px;
+    &:hover{
+      transform: scale(1.1) rotate(180deg);
+    }
+  }
+  label{
+    cursor: pointer;
+  }
+  img{
+    transition: all .3s ease-in-out;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}
+
+@import "mobile";

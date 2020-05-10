@@ -1,0 +1,32 @@
+.menu{
+  border-top:1px solid #FFF;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu-item{
+  width: 16.6%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px 0 15px;
+  line-height: 1;
+  height: 100px;
+  color: #FFF;
+  background-color: #000;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family:$yanone_regular;
+  &:not(:last-child){
+    border-right:1px solid #FFF;
+  }
+  &:last-child img{
+    margin-top: 10px;
+  }
+}
+
+@import "mobile";
